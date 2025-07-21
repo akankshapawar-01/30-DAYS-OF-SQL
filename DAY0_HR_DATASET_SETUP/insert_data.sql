@@ -1,0 +1,30 @@
+INSERT INTO departments (dept_id, dept_name) VALUES
+(1000, 'Software Engineering'),
+(1001, 'Project Management'),
+(1002, 'Cybersecurity'),
+(1003, 'Data Science'),
+(1004, 'Quality Assurance'),
+(1005, 'Technical Support'),
+(1006, 'Human Resources');
+
+INSERT INTO employees (emp_id, name, age, dept_id, salary, hire_date) VALUES
+(1, 'Rakesh Kumar', 28, 1000, 75000.00, '2023-01-20'),   
+(2, 'Dhiraj Mehta', 31, 1001, 55000.00, '2020-03-15'),  
+(3, 'Aanand Kariya', 25, 1002, 43000.00, '2023-01-20'),   
+(4, 'Prachi Shinde', 29, 1004, 67000.00, '2021-07-11'), 
+(5, 'Sunita Pawar', 33, 1003, 99000.00, '2019-11-25'),  
+(6, 'Janhavi Deshmukh', 26, 1000, 75000.00, '2022-06-10'),   
+(7, 'Amaira Khan', 35, 1004, 95000.00, '2021-04-15'),
+(8, 'Roshni Sharma', 27, 1003, 47000.00, '2023-02-17'),    
+(9, 'Gauri Mahore', 24, 1002, 41000.00, '2024-01-01'), 
+(10, 'Krishna Shah', 30, 1001, 55000.00, '2023-01-20'),  
+(11, 'Imran Sheikh', 32, 1000, 69000.00, '2021-12-10'),
+(12, 'Lucky Singh', 29, 1003, 55000.00, '2022-10-14'),   
+(13, 'Saurabh Thakur', 27, 1005, 44000.00, '2023-05-03'),
+(14, 'Abhijeet Mehta', 26, 1004, 86000.00, '2021-01-30'),
+(15, 'Preeti Rane', 34, 1002, 99000.00, '2017-06-23'),
+(16, 'Nayan Jadhao', 25, 1005, 60000.00, '2023-09-07'), 
+(17, 'Reema D’Souza', 31, 1003, 47000.00, '2021-04-15'),
+(18, 'Lavina Kukreja', 28, 1001, 48000.00, '2022-10-14'),  
+(19, 'Prasad Pawar', 33, 1000, 90000.00, '2018-08-01'),
+(20, 'Shreya Nawle', 30, 1006, 75000.00, '2021-04-15');  
