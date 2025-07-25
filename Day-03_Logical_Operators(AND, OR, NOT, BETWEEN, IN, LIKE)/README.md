@@ -5,7 +5,7 @@ Logical operators in SQL are used to combine or modify multiple conditions withi
 - **Note** : SQL queries related to each operator are written in `query.sql`.
 ---
 
-## 📘 Concepts Covered – Day 3
+## 🧠 Concepts Covered – Day 3
 🔹 Logical Operators
 - **AND** – Returns records where both conditions are true.
 - **OR** – Returns records if any one condition is true.
