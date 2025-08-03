@@ -4,32 +4,26 @@ SELECT * FROM employees;
 -- Select name and age
 SELECT name, age FROM employees;
 
--- Employees older than 30
-SELECT * FROM employees WHERE age > 30;
+-- View all departments
+SELECT * FROM departments;
 
--- Employees with salary > 50000
-SELECT name, salary FROM employees WHERE salary > 50000;
+-- Select specific columns
+SELECT name, age FROM employees;
 
--- Employees from dept 1001
-SELECT name, dept_id FROM employees WHERE dept_id = 1001;
+-- Display employee name and annual salary (calculated)
+SELECT name, salary, salary * 12 AS annual_salary FROM employees;
 
--- Exclude dept 1003
-SELECT name, dept_id FROM employees WHERE dept_id != 1003;
+-- Display department IDs only (distinct values)
+SELECT DISTINCT dept_id FROM employees;
 
--- Hired after 2020
-SELECT name, hire_date FROM employees WHERE hire_date > '2020-01-01';
+-- Show all department names
+SELECT dept_name FROM departments;
 
--- Employees from dept 1004 with salary > 60000
-SELECT name, salary FROM employees WHERE dept_id = 1004 AND salary > 60000;
+-- Show employee name with department ID as a single column
+SELECT CONCAT(name, ' works in dept ', dept_id) AS employee_department FROM employees;
 
--- Age < 25 OR salary > 80000
-SELECT name, age FROM employees WHERE age < 25 OR salary > 80000;
+-- Show first 5 employees
+SELECT * FROM employees LIMIT 5;
 
--- Combined AND and OR
-SELECT * FROM employees WHERE dept_id = 1001 AND (salary > 60000 OR age < 30);
-
--- Find employee by name
-SELECT * FROM employees WHERE name = 'Rakesh Kumar';
-
--- Missing salary
-SELECT * FROM employees WHERE salary IS NULL;
+-- Alias columns for better readability
+SELECT name AS EmployeeName, hire_date AS JoiningDate FROM employees;
