@@ -1,5 +1,5 @@
 # Day 4 – Sorting Data with ORDER BY
-Today, I learned how to **sort query results** using the `ORDER BY` clause in SQL.  
+- Today, I learned how to **sort query results** using the `ORDER BY` clause in SQL.  
 ---
 ### 1️⃣ ORDER BY Clause
 - **What it is:** A clause used to sort the result set by one or more columns.  
