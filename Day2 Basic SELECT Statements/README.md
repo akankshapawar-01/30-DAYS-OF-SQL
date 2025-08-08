@@ -1,4 +1,4 @@
-# Day 2 – Basic SELECT Statements
+# Day 2 – Basic SELECT Statements ⭐
 Today, I explored the **`SELECT` statement** in SQL, which is the foundation of querying relational databases.
 
 ---
