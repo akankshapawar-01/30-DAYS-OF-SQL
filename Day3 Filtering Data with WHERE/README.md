@@ -1,4 +1,4 @@
-# Day 3 – Filtering Data with WHERE Clause
+# Day 3 – Filtering Data with WHERE Clause ⭐
 - Today, I learned how to **filter data** in SQL using the `WHERE` clause.  
 ---
 
