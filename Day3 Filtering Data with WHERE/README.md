@@ -73,7 +73,7 @@ SELECT name FROM employees WHERE NOT dept_id IN (1001, 1004);
 ```
 ---
 
-### 🎯 Day 3 Objectives
+### 📌 Concepts Learned
 - Learned to use the WHERE clause effectively.
 - Practiced using operators: BETWEEN, IN, LIKE, and IS NULL.
 - Applied negation with NOT for advanced filtering.
