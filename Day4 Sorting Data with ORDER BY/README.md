@@ -45,7 +45,8 @@ ORDER BY dept_id ASC, salary DESC;
 SELECT name, salary FROM employees ORDER BY salary DESC LIMIT 3;
 ```
 ---
- ### 🎯 Day 4 Objectives
+
+ ### 📌 Concepts Learned
 - Learned to organize query results using ORDER BY.
 - Applied sorting on single and multiple columns.
 - Combined sorting with LIMIT
