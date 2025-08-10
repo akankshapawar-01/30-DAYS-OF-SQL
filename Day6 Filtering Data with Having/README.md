@@ -17,7 +17,7 @@ HAVING condition_on_aggregated_data;
 ```
 ---
 
-### 🎯 Objectives of Day 6
+### 🎯 Day 6 Objectives
 - Understand the use of HAVING clause
 - Practice filtering grouped data
 - Combining WHERE + GROUP BY + HAVING
