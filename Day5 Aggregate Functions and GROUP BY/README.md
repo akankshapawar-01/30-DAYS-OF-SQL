@@ -29,7 +29,7 @@ FROM employees
 GROUP BY dept_id;
 ```
 ---
-### 🎯 Day 5 Objectives
+### 📌 Concepts Learned
 - Learned how to use aggregate functions (COUNT, SUM, AVG, MAX, and MIN) for summarizing data
 - Grouped results using GROUP BY
 ---
