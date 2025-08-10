@@ -1,4 +1,4 @@
-## Day 8 : SQL Joins 
+# Day 8 : SQL Joins 
 - Today, I Learned how SQL JOINs combine rows from multiple tables based on related columns to retrieve connected data.
 ---
 
@@ -70,4 +70,4 @@ ON table1.common_column = table2.common_column;
 
 ## 🚀 What’s Next?
 On Day 9, I will:
-- Learn about the Advance JOINS (SELF JOIN, FULL OUTER JOIN, CROSS JOIN)
+- Learn about the Advance JOINS (SELF JOIN, CROSS JOIN and Joins with aggregates)
