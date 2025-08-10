@@ -1,4 +1,4 @@
-# Day 7: SQL Revision and Practice
+# Day 7 - SQL Revision and Practice
 - Today I revised and practice SQL queries learned from Day 1 to Day 6 — covering filtering, sorting, aggregation, grouping, and the use of the HAVING clause.
 ---
 
