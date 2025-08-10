@@ -1,4 +1,4 @@
-# Day 6: Filtering Data with HAVING Clause ⭐
+# Day 6 - Filtering Data with HAVING Clause ⭐
 - Today, I learned how to use the **HAVING Clause** to filter grouped data using aggregate functions after applying GROUP BY, along with WHERE for row-level filtering.
 ---
 
