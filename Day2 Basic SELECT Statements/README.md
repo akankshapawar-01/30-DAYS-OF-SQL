@@ -62,7 +62,7 @@ SELECT name, salary, salary * 12 AS annual_salary FROM employees;
 SELECT * FROM employees LIMIT 5;
 ```
 ---
-### 🎯 Day 2 Objectives
+### 📌 Concepts Learned
 - Learned to use SELECT for fetching data.
 - Practiced selecting specific columns and applying aliases.
 - Explored DISTINCT, CONCAT, and basic calculations in queries.
