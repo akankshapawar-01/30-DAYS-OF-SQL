@@ -1,4 +1,4 @@
-# Day 8 : SQL Joins 
+# Day 8 - SQL Joins 
 - Today, I Learned how SQL JOINs combine rows from multiple tables based on related columns to retrieve connected data.
 ---
 
