@@ -36,6 +36,7 @@ SELECT column1, column2 FROM table2;
 ### INTERSECT
 - Returns only rows that exist in both queries.
 - Removes duplicates automatically.
+- (Not supported in MySQL). You can simulate it using INNER JOIN or IN subqueries.
 - Syntax:
 ```sql
 SELECT column1, column2 FROM table1
@@ -48,6 +49,7 @@ SELECT column1, column2 FROM table2;
 
 ### EXCEPT 
 - Returns rows from the first query that are not in the second query.
+- (Not supported in MySQL). You can simulate it using LEFT JOIN + IS NULL or NOT IN subqueries.
 - Syntax:
 ```sql
 SELECT column1, column2 FROM table1
