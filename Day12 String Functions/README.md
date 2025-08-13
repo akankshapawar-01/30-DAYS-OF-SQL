@@ -1,10 +1,11 @@
 # Day 12 - String Functions
-- Today, I learned
+- Today, I learned how Functions are used to manipulate and format text values in SQL queries.
 ---
 
 ### What is String Functions ?
 - A string function in SQL is a built-in function used to perform operations on string (text) data, such as manipulating, searching, formatting, or extracting information from it.
 ---
+
 ### Commonly used String Functions:
 ### 1️⃣ UPPER() / LOWER()
 - UPPER() converts all characters in a string to uppercase.
@@ -43,6 +44,7 @@ SELECT LENGTH('SQL') AS ByteLength,
 |3            |3           |
 ```
 ---
+
 ### 3️⃣ TRIM()
 - Removes leading or trailing spaces from a string.
 - Syntax:
@@ -53,8 +55,11 @@ SELECT TRIM('   SQL   ') AS Trimmed;
 ```
 
 - Output:
-- |Trimmed |
-- |SQL     |
+```sql
+| Trimmed  | 
+|----------|
+|SQL       |
+```
 ---
 
 ### 4️⃣ SUBSTRING() / SUBSTR()
@@ -67,9 +72,11 @@ SELECT TRIM('   SQL   ') AS Trimmed;
 SELECT SUBSTRING('Database', 1, 4) AS Part;
 ```
 - Output:
-
-Part
-Data
+```sql
+| Part  | 
+|-------|
+|Data   |
+```
 
 - start position starts from 1 (not 0) in MySQL.
 - Negative start counts from the end of the string.
@@ -84,9 +91,11 @@ Data
 SELECT CONCAT('Data', 'Base') AS Combined;
 ```
 - Output:
-
-Combined
-Database
+```sql
+| Combined | 
+|----------|
+|Database  |
+```
 ---
 
 ### 6️⃣ REPLACE()
@@ -98,9 +107,11 @@ Database
 SELECT REPLACE('I like SQL', 'like', 'practice') AS NewString;
 ```
 - Output:
-
-NewString
-I practice SQL
+```sql
+| NewString     | 
+|---------------|
+|I practice SQL |
+```
 ---
 
 ### 7️⃣ INSTR()
@@ -112,10 +123,11 @@ I practice SQL
 SELECT INSTR('Database', 'base') AS Position;
 ```
 - Output:
-
-Position
-5
-
+```sql
+| Position | 
+|----------|
+|5         |
+```
 - Returns 0 if substring not found.
 ---
 
@@ -129,9 +141,11 @@ Position
 SELECT LEFT('HelloWorld', 5) AS Result;
 ```
 - Output:
-
-Result
-Hello
+```sql
+| Result   | 
+|----------|
+|Hello     |
+```
 --- 
 
 ### 2️⃣ RIGHT()
@@ -139,13 +153,15 @@ Hello
 - Syntax:
    - RIGHT(string, number_of_characters)
 - Example:
-  ```sql
+```sql
 SELECT RIGHT('HelloWorld', 5) AS Result;
 ```
 - Output:
-
-Result
-World
+```sql
+| Result   | 
+|----------|
+|World     |
+```
 ---
 
 ### 3️⃣ LPAD()
@@ -157,9 +173,11 @@ World
 SELECT LPAD('123', 5, '0') AS Result;
 ```
 - Output:
-
-Result
-00123
+```sql
+| Result   | 
+|----------|
+|00123     |
+```
 ---
 
 ### 4️⃣ RPAD()
@@ -171,9 +189,11 @@ Result
 SELECT RPAD('123', 5, '0') AS Result;
 ```
 Output:
-
-Result
-12300
+```sql
+| Result   | 
+|----------|
+|12300     |
+```
 ---
 
 ### 5️⃣ REVERSE()
@@ -185,16 +205,13 @@ Result
 SELECT REVERSE('Hello') AS Result;
 ```
 - Output:
-
-Result
-olleH
-
+```sql
+| Result   | 
+|----------|
+|olleH     |
+```
 ---
-### Key points to remember
 
-
-
----
 ### 🚀 What’s Next?
 On Day 13, I will:
 - Learn about the Date and Time Functions
