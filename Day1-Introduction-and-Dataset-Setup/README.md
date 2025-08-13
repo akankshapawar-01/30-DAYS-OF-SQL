@@ -39,7 +39,7 @@ For this 30-day practice, I am using the HR Dataset, which includes tables like:
 -  Run these scripts in MySQL to set up your database environment.
 ---
 
-##🎯 Day 1 Objectives
+## 🎯 Day 1 Objectives
 - ✅ Set up the HR database using the provided SQL scripts
 - ✅ Verified schema and relationships between tables
 - ✅ Explored database structure to prepare for queries
