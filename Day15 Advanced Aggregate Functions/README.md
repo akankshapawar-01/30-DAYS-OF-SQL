@@ -1,5 +1,5 @@
 # Day 15 - Advanced Aggregate Functions 
-- Today, I learned Advanced Aggregate Functions in SQL such as GROUP_CONCAT, STDDEV/VARIANCE, ROLLUPand CUBE, and also understood which functions are supported in MySQL and which are specific to Oracle/PostgreSQL.
+- Today, I learned Advanced Aggregate Functions in SQL such as GROUP_CONCAT, STDDEV/VARIANCE, ROLLUP, and also understood which functions are supported in MySQL and which are specific to Oracle/PostgreSQL.
 ---
 
 ### 🧐 What are Advanced Aggregate Functions?
@@ -36,7 +36,7 @@ GROUP BY dept_id;
 - When to Use: To measure how spread out salaries are in a department.
 
 ---
-### ROLLUP and CUBE ⭐
+### ROLLUP ⭐
 - Used for multi-level aggregations.
 - Syntax:
   -  `ROLLUP`: Hierarchical totals
@@ -45,17 +45,9 @@ GROUP BY dept_id;
      FROM employees
      GROUP BY dept_id WITH ROLLUP;
      ```
-
-   - `CUBE`: All possible combinations
-      ```sql
-       SELECT COUNT(DISTINCT CASE WHEN salary > 60000 THEN dept_id END) AS high_salary_departments
-       FROM employees;
-      ```
-- When to Use: For reporting dashboards (department totals + grand totals).
 - Points to Remember:
   - `ROLLUP` → hierarchical totals.
-  - `CUBE` → all possible combinations of groups.
-  - Supported in MySQL (from 8.0), PostgreSQL, Oracle, SQL Server.
+  - `CUBE` → Supported in Oracle, PostgreSQL, SQL Server.
 ---
 
 ### COUNT(DISTINCT CASE … END) ⭐
