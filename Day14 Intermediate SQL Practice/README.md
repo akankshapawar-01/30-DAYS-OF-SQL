@@ -33,6 +33,6 @@
 - Worked with date functions (YEAR, MONTHNAME) to extract and format date values.
 ---
 
-### ### 🚀 What’s Next?
+### 🚀 What’s Next?
 On Day 15, I will:
 - Learn about the Advanced Aggregate Fumction
