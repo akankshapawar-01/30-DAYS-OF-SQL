@@ -25,3 +25,16 @@ WITH DeptAvg AS (
 SELECT d.dept_name, da.avg_salary
 FROM DeptAvg da
 JOIN departments d ON da.dept_id = d.dept_id;
+
+-- Recursive CTE Example:
+-- Normally used for hierarchical/self-referencing data (e.g., employees with manager_id).
+-- Dataset does not have a manager column, so recursion is not possible.
+-- Below is a generic recursive CTE example (generating numbers 1 to 10).
+WITH RECURSIVE Numbers AS (
+    SELECT 1 AS n
+    UNION ALL
+    SELECT n + 1
+    FROM Numbers
+    WHERE n < 10
+)
+SELECT * FROM Numbers;
