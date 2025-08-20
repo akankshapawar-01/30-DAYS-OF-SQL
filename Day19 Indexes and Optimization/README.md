@@ -1,8 +1,8 @@
 # Day 19 - Indexes and Optimization
-- Today, I learned
+- Today, I learned how indexes improve query performance and the different types of indexes (primary, unique, normal, composite, full-text).
 ---
 
-### What is Indexe ?
+## What is Index ?
 - An Index is a database object that improves the speed of data retrieval operations (SELECT) by providing a faster way to access rows. However, indexes require additional storage and slow down write operations (INSERT, UPDATE, DELETE).
 - Syntax:
 ```sql
@@ -11,11 +11,11 @@ ON TABLE column;
 ```
 ---
 
-### Types of Indexes & Syntax
+## Types of Indexes & Syntax
 ### 1) Primary Index (Clustered)
 - Automatically created with PRIMARY KEY.
 - Rows are physically stored in sorted order of the index.
-- Synatx:
+- Syntax:
 ```sql
 CREATE TABLE table_name (
     column_name datatype PRIMARY KEY
@@ -58,19 +58,19 @@ ON table_name(column_name);
 ```
 ---
 
-###  When to Use Indexes
+## 💡 When to Use Indexes
 - Queries frequently use WHERE, JOIN, ORDER BY, GROUP BY.
 - Searching large tables on specific columns.
 - Columns with high selectivity (many unique values).
 ---
 
-### Key Points to Remember
+## 📌 Key Points to Remember
 - Indexes speed up reads but slow down writes.
 - PRIMARY KEY and UNIQUE constraints automatically create indexes.
 - Too many indexes = performance issues.
 - Always index columns used in joins and searches.
 ---
 
-### 🚀 What’s Next?
+## 🚀 What’s Next?
 On Day 20, I will:
 - Learn about Transactions and Concurrency Control
