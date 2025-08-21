@@ -1,4 +1,6 @@
 # Day 20 - Transactions and Concurrency Control
+- Today, I Learned how transactions ensure data consistency and concurrency control in SQL using COMMIT, ROLLBACK, SAVEPOINT, locks, and isolation levels.
+---
 
 ### 🧐 What is a Transaction?
 - A transaction is a sequence of one or more SQL operations executed as a single unit of work.
