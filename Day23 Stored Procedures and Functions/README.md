@@ -28,7 +28,7 @@ SELECT @out_param;
 ```
 ---
 
-### What are Functions ?
+### 🧐 What are Functions ?
 - A function is a stored program that accepts parameters, performs a calculation or operation, and returns a single value.
 - **When to Use**:
    - When you need a reusable calculation inside queries.
