@@ -1,4 +1,5 @@
 # Day 25 - Error Handling Debugging
+- Today, I learned about error handling and debugging in SQL including common errors and how to fix them.
 ---
 
 
@@ -25,8 +26,8 @@ BEGIN
    VALUES ('An error occurred', NOW());
 END;
 ```
- Important because it prevents procedure failure.
-
+- Important because it prevents procedure failure.
+---
 ## Logging Errors
 - Create an error_log table to capture errors.
 - Useful for debugging triggers, procedures, and events.
