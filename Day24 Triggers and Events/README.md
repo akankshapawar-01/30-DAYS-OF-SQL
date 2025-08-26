@@ -67,4 +67,4 @@ END;
 
 ## 🚀 What’s Next?
 On Day 25, I will:
-- Learn about Data Import and Export
+- Learn about Error Handling Debugging
