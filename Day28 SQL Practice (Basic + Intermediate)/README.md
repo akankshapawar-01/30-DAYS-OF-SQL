@@ -60,3 +60,8 @@
 ## 📌 Security
 - CREATE USER, GRANT, REVOKE
 - Prevent SQL injection → use parameters
+---
+
+## 🚀 What’s Next?
+On Day 29, I will:
+- Learn about Database Relationships
