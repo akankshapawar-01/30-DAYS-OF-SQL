@@ -50,3 +50,8 @@ REVOKE INSERT ON employee_db.* FROM 'xyz'@'localhost';
 PreparedStatement stmt = conn.prepareStatement("SELECT * FROM employees WHERE emp_id = ?");
 stmt.setInt(1, userInput);
 ```
+---
+
+## 🚀 What’s Next?
+On Day 27, I will:
+- Learn about Views and Materialized Views
