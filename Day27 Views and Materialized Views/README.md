@@ -82,3 +82,8 @@ Use Case	     |   Simplify queries, security	     |  Reports, dashboards, analyt
 ## Notes:
 - Use Views when data changes frequently & you want latest results.
 - Use Materialized Views when you want fast performance and don’t need real-time updates.
+---
+
+## 🚀 What’s Next?
+On Day 28, I will:
+- Revise Concepts and Practice queries.
