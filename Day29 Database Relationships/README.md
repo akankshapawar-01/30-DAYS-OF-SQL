@@ -1,12 +1,12 @@
 # Day 29 - Database Relationships
-- Today, I learned about database relationships (1:1, 1:N, M:N) using primary key, foreign key, and junction table.”
+- Today, I learned about database relationships (1:1, 1:N, M:N) using primary key, foreign key.
 ---
 
-## What are Database Relationships?
+## 🧐 What are Database Relationships?
 - Database relationships define how two or more tables are connected through primary keys and foreign keys.
 ---
 
-## Types Of Relationships
+## Types Of Relationships 
 ## 1] One-to-One (1:1)
 - One record in Table A relates to only one record in Table B.
 
