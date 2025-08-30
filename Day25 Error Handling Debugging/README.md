@@ -44,3 +44,8 @@ CREATE TABLE error_log (
 - Always test queries on sample dataset first.
 - Use transactions (START TRANSACTION, ROLLBACK, COMMIT) to avoid permanent damage when testing.
 - Add comments in your queries to remember debugging steps.
+---
+
+## 🚀 What’s Next?
+On Day 25, I will:
+- Learn about SQL Security
